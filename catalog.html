@@ -34,8 +34,8 @@
       <div class="main-wrapper">
         <section class="catalog-form-section">
           <h2 class="visually-hidden">Сортировка готовых шаблонов</h2>
-          <form class="main-form" action=""></form>
-          <buttuon class="main-form-button" type="submit"></buttuon>
+          <form class="main-form" action="https://echo.htmlacademy.ru" method="post"></form>
+          <button class="main-form-button" type="submit"></button>
         </section>
         <section class="shop-content">
           <h2 class="visually-hidden">Список готовых шаблонов</h2>
@@ -152,5 +152,26 @@
         </div>
       </section>
     </footer>
+    <section class="feedback-section">
+      <div class="feedback-form-wrapper">
+        <h2>Напишите нам</h2>
+        <button class="feedback-close" type="button">x</button>
+        <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="feedback-conteiner feedback-half-conteiner">
+            <label class="feedback-label label-user-name" for="feedback-user-name">Ваше имя:</label>
+            <input type="text" class="feedback-user-name" id="feedback-user-name" name="feedback-user-name" placeholder="Имя Фамилия">
+          </p>
+          <p class="feedback-conteiner feedback-half-conteiner">
+            <label class="feedback-label label-user-mail" for="feedback-user-mail">Ваш e-mail:</label>
+            <input type="email" class="feedback-user-mail" id="feedback-user-mail" name="feedback-user-mail" placeholder="email@example.com">
+          </p>
+          <p class="feedback-conteiner">
+            <label class="feedback-textarea-label" for="feedback-textarea">Текст письма:</label>
+            <textarea class="feedback-textarea" id="feedback-textarea" name="feedback-message" cols="100" rows="15" placeholder="В свободной форме"></textarea>
+          </p>
+          <button class="beedback-button button" type="submit">ОТПРАВИТЬ</button>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
