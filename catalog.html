@@ -34,12 +34,54 @@
       <div class="main-wrapper">
         <section class="catalog-form-section">
           <h2 class="visually-hidden">Сортировка готовых шаблонов</h2>
-          <form class="main-form" action="https://echo.htmlacademy.ru" method="post"></form>
-          <button class="main-form-button" type="submit"></button>
+          <form class="main-form" action="https://echo.htmlacademy.ru" method="post">
+
+            <!-- <div class="price-selection">Узнать как реализовать!!!!!!!!!!!</div> -->
+
+            <div class="grid-selection">
+              <h3 class="main-form-title">Сетка:</h3>
+              <p class="grid-selection-item">
+                <input class="grid-item grid-adaptive" type="radio" id="grid-adaptive" name="grid" value="adaptive">
+                <label class="grid-label grid-adaptive-label" for="grid-adaptive">Адаптивная</label>
+              </p>
+              <p class="grid-selection-item">
+                <input class="grid-item grid-fixed" type="radio" id="grid-fixed" name="grid" value="fixed">
+                <label class="grid-label grid-fixed-label" for="grid-fixed">Фиксированная</label>
+              </p>
+              <p class="grid-selection-item">
+                <input class="grid-item grid-rubber" type="radio" id="grid-rubber" name="grid" value="rubber">
+                <label class="grid-label grid-rubber-label" for="grid-rubber">Резиновая</label>
+              </p>
+            </div>
+            <div class="features-selection">
+              <h3 class="main-form-title">Особенности:</h3>
+              <p class="features-selection-item">
+                <input class="fetures-item features-slider" type="checkbox" id="features-slider" name="features" value="slider">
+                <label class="fiatures-label features-slider-label" for="features-slider">Слайдер</label>
+              </p>
+              <p class="features-selection-item">
+                <input class="fetures-item features-advantage" type="checkbox" id="features-advantage" name="features" value="advantage">
+                <label class="fiatures-label features-advantage-label" for="features-advantage">Блок преимуществ</label>
+              </p>
+              <p class="features-selection-item"></p>
+                <input class="fetures-item features-news" type="checkbox" id="features-news" name="features" value="news">
+                <label class="fiatures-label features-news-label" for="features-news">Новости</label>
+              <p class="features-selection-item"></p>
+                <input class="fetures-item features-gallery" type="checkbox" id="features-gallery" name="features" value="gallery">
+                <label class="fiatures-label features-gallery-label" for="features-gallery">Галерея</label>
+              <p class="features-selection-item">
+                <input class="fetures-item features-basket" type="checkbox" id="features-basket" name="features" value="basket">
+                <label class="fiatures-label features-basket-label" for="features-basket">Корзина</label>
+              </p>
+            </div>
+            <button class="main-form-button" type="submit">Показать</button>
+          </form>
         </section>
         <section class="shop-content">
           <h2 class="visually-hidden">Список готовых шаблонов</h2>
-          <div class="sorting-box"><!--Тут будут цекбоксы для сортировки--></div>
+          <div class="sorting-box">
+            p.sorting-box-title{Сортировать:}+div.sorting-lists>ul.sorting-type>((li.sorting-type-item>a.sorting-type-link[href="#"])*3)+ul.sorting-direction
+          </div>
           <ul class="products-list">
             <li class="products-list-item template-sedona">
               <div class="item-header"></div>
