@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ХЭДЭР */
+
+.main-header {
+  background-color: #eeeeee;
+}
+
+.main-navigation {
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.main-menu,
+.user-menu {
+  list-style: none;
+}
+
+.main-menu a,
+.user-menu a {
+  color: #000000;
+}
+
+/* БЛОК НАШИ УСЛУГИ */
+
+.service-section-item .title {
+  font-size: 24px;
+  line-height: 30px
+  font-weight: 700;
+  color: #000000;
+}
+
+.service-section-item .img-container {
+  width: 300px;
+  height: 146px;
+}
+
+.img-container-web {
+  background-image: url("../img/service-web.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+}

@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
-    <link href="#" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -80,7 +81,32 @@
         <section class="shop-content">
           <h2 class="visually-hidden">Список готовых шаблонов</h2>
           <div class="sorting-box">
-            p.sorting-box-title{Сортировать:}+div.sorting-lists>ul.sorting-type>((li.sorting-type-item>a.sorting-type-link[href="#"])*3)+ul.sorting-direction
+            <p class="sorting-box-title">Сортировать:</p>
+            <div class="sorting-lists">
+              <ul class="sorting-type">
+                <li class="sorting-type-item">
+                  <a href="#" class="sorting-type-link">по цене</a>
+                </li>
+                <li class="sorting-type-item">
+                  <a href="#" class="sorting-type-link">по типу</a>
+                </li>
+                <li class="sorting-type-item">
+                  <a href="#" class="sorting-type-link">по названию</a>
+                </li>
+              </ul>
+              <ul class="sorting-direction">
+                <li class="sorting-direction-item">
+                  <a href="#" class="sorting-direction-link">
+                    <span class="visually-hidden">по убыванию</span>
+                  </a>
+                </li>
+                <li class="sorting-direction-item">
+                  <a href="#" class="sorting-direction-link">
+                    <span class="visually-hidden">по возрастанию</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <ul class="products-list">
             <li class="products-list-item template-sedona">
@@ -148,6 +174,20 @@
                 <p>Промо-сайт производителя крафтового кваса</p>
                 <a class="shop-item-button button" href="#">9 900 РУБ.</a>
               </div>
+            </li>
+          </ul>
+          <ul class="pagination">
+            <li class="pagination-item pagination-item-active">
+              <a class="pagination-link pagination-link-active" href="#">1</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">2</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">3</a>
+            </li>
+            <li class="pagination-item pagination-item-next">
+              <a class="pagination-link pagination-link-next" href="#">Следующая</a>
             </li>
           </ul>
         </section>
