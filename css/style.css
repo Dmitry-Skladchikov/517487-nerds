@@ -22,6 +22,17 @@ a {
   text-decoration: none;
 }
 
+.button {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  background-color: #fb565a;
+  text-transform: uppercase;
+}
+
 /* ХЭДЭР */
 
 .main-header {
@@ -59,9 +70,174 @@ a {
   height: 146px;
 }
 
+.service-section-websites .button {
+  background-color: #fb565a;
+}
+
+.service-section-programs .button {
+  background-color: #00ca74;
+}
+
+.service-section-presentations .button {
+  background-color: #efc84a;
+}
+
+
 .img-container-web {
   background-image: url("../img/service-web.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
+}
 
+.img-container-programs {
+  background-image: url("../img/service-programs.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.img-container-presentations {
+  background-image: url("../img/service-presentations.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+/*БЛОК О НАШЕЙ КОМПАНИИ  */
+
+.about-us-slogan {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #000000;
+}
+
+.about-us-left-subtitle,
+.about-us-right-subtitle {
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.percent-value {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #000000;
+}
+
+.description-value {
+  line-height: 18px;
+}
+
+/* ГЛАВНЫЙ ФИЛЬТР КАТАЛОГА */
+.main-form-title,
+.sorting-box-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #000000;
+  text-decoration: uppercase;
+}
+
+.grid-selection-item label,
+.features-selection-item label {
+  font-weight: 400;
+  line-height: 20px;
+  color: #283136;
+}
+
+.sorting-type-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.sorting-type-link.active {
+  color: #000000;
+}
+
+/* ТОВАРЫ КАТАЛОГА */
+.item-description h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.item-description p {
+  line-height: 18px;
+  color: #666666;
+}
+
+.pagination-link {
+  font-weight: 500;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+
+/*  БЛОК С КАРТОЙ*/
+
+.map {
+  background-color: #eeeeee;
+}
+
+.studio-name {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.adress-text,
+.phone {
+  line-height: 18px;
+  color: #666666;
+}
+
+.feedback-btn {
+  background-color: #fb565a;
+}
+
+/* ПОДАВАЛ - СОЦИАЛКИ */
+
+.social-discount b {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000000;
+}
+
+.social-discount p {
+  line-height: 22px
+  color: #444444;
+}
+
+/* ПОП-АП */
+.feedback-title {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #000000;
+}
+
+.feedback-label {
+  font-weight: 700;
+  line-height: 18px;
+  color: #000000;
+}
+
+input::placeholder,
+textarea::placeholder {
+  line-height: 18px;
+  color: #444444;
 }

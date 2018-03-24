@@ -37,7 +37,20 @@
           <h2 class="visually-hidden">Сортировка готовых шаблонов</h2>
           <form class="main-form" action="https://echo.htmlacademy.ru" method="post">
 
-            <!-- <div class="price-selection">Узнать как реализовать!!!!!!!!!!!</div> -->
+            <div class="price-selection">
+              <h3 class="main-form-title">Стоимость:</h3>
+              <div class="range-control"></div>
+              <div class="price-controle">
+                <p class="price-controle-left ">
+                  <label class="min-price-label" for="min-price">от</label>
+                  <input class="min-price" id="min-price" type="number" name="min-price" value="0">
+                </p>
+                <p class="price-controle-right">
+                  <label class="max-price-label" for="max-price">До</label>
+                  <input class="max-price" id="max-price" type="number" name="max-price" value="15000">
+                </p>
+              </div>
+            </div>
 
             <div class="grid-selection">
               <h3 class="main-form-title">Сетка:</h3>
@@ -64,18 +77,20 @@
                 <input class="fetures-item features-advantage" type="checkbox" id="features-advantage" name="features" value="advantage">
                 <label class="fiatures-label features-advantage-label" for="features-advantage">Блок преимуществ</label>
               </p>
-              <p class="features-selection-item"></p>
+              <p class="features-selection-item">
                 <input class="fetures-item features-news" type="checkbox" id="features-news" name="features" value="news">
                 <label class="fiatures-label features-news-label" for="features-news">Новости</label>
-              <p class="features-selection-item"></p>
+              </p>
+              <p class="features-selection-item">
                 <input class="fetures-item features-gallery" type="checkbox" id="features-gallery" name="features" value="gallery">
                 <label class="fiatures-label features-gallery-label" for="features-gallery">Галерея</label>
+              </p>
               <p class="features-selection-item">
                 <input class="fetures-item features-basket" type="checkbox" id="features-basket" name="features" value="basket">
                 <label class="fiatures-label features-basket-label" for="features-basket">Корзина</label>
               </p>
             </div>
-            <button class="main-form-button" type="submit">Показать</button>
+            <button class="button main-form-button" type="submit">Показать</button>
           </form>
         </section>
         <section class="shop-content">
@@ -85,7 +100,7 @@
             <div class="sorting-lists">
               <ul class="sorting-type">
                 <li class="sorting-type-item">
-                  <a href="#" class="sorting-type-link">по цене</a>
+                  <a href="#" class="sorting-type-link active">по цене</a>
                 </li>
                 <li class="sorting-type-item">
                   <a href="#" class="sorting-type-link">по типу</a>
@@ -202,7 +217,7 @@
             <b class="studio-name">NЁRDS DESIGN STUDIO</b>
             <p class="adress-text">191186, Санкт-Петербург, ул. Б. Конюшенная, д.19/9</p>
             <p class="phone">тел. +7(812)275-75-75</p>
-            <button class="feedback-btn" type="button">НАПИШИТЕ НАМ</button>
+            <a class="button feedback-btn" href="#">НАПИШИТЕ НАМ</a>
           </div>
         </div>
       </section>
